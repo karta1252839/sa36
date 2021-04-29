@@ -35,26 +35,37 @@
 
     <title>關於我們</title>
     <style>
+        #img-switch .small-img a {
+            display: inline-block;
+        }
 
+        #img-switch img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 
 <body>
     <!-- Header -->
-    <script>PageHeader();</script>
+    <script>
+        PageHeader();
+    </script>
 
     <!-- 通用  ------------------------------------------------------------------------>
 
     <!-- MD history.back ------------------------------------------------------------------------>
-    <div class="pt-1 d-md-none" style="background-color: #e1778d;">
+    <div class="d-md-none w-100 py-1" style="background-color: #efeee0;">
         <nav aria-label="breadcrumb">
             <ul class="d-flex py-0 py-sm-1">
                 <button class="btn py-0" type="button" onclick="history.back()" value="回到上一頁">
-                    <i class="fas fa-angle-left text-light fa-lg"></i>
+                    <i class="fas fa-angle-left textCoffee fa-lg"></i>
                 </button>
-                <li class="breadcrumb-item"><a href="../index.html" class="text-light">首頁</a></li>
+                <li class="breadcrumb-item"><a href="/index.html" class="textCoffee">首頁</a></li>
+                <li class="breadcrumb-item"><a href="/loginPage/loginPage.html" class="textCoffee">會員中心</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <span class="text-light pl-2" id="copyTitle"></span>
+                    <span class="textCoffee pl-2" id="copyTitle"></span>
                 </li>
             </ul>
         </nav>
@@ -67,84 +78,100 @@
     </script>
 
 
-    <div class="container-fluid px-0 py-0 m-0 bgc-flex" style="background-image: url(../img/桌機index_img/BG1.png);">
+    <div class="container-fluid px-0 py-0 m-0 bgc-flex" style="background-image: url(../img/桌機index_img/bg2.png);">
         <div class="container pb-3">
             <!-- PC ------------------------------------------------------------------------>
-            <div class="">
-                <div class="w3-xlarge lp1 text-123ts-color centerCenter py-3 d-none d-md-block" id="title"></div>
-                <!-- title設定 -->
-                <script>
-                    $(document).ready(function () {
-                        const title = $('title').text();
-                        $('#title').text(title);
-                    });
-                </script>
-
-                <!-- 1 -->
-                <div class="row bg-light w3-round-medium py-3 px-5">
-                    <p class="text-123ts-color text-monospace">關於我們</p>
-                    <p class="p-3 fsz-08 text-secondary text-justify">
-                        派大金博彩娛樂集團(paidajin)，為菲律賓合法註冊之博彩公司，遊戲方面與歐博、SA36、卡利系統等平台戰略合作，最具公信力、品質，為廣大玩家
-                        最推薦的線上娛樂城選擇。
-                        <br>
-                        <br>
-                        派大金擁有市面上最多元的遊戲平台，同時為會員提供即時、安全、高信譽的服務保證、客戶帳號安全是派大金的首要宗旨。在日漸熱絡、成熟的線上
-                        博彩市場中，除了多元的線上博弈遊戲外，派大金集團針對現階段網絡安全問題，成立了資訊安全中心，徹底為會員的帳戶安全把關。諾頓分級評級審
-                        核"派大金娛樂城"為最安全網站之壹，並獲得GEOTRUST國際認證，確保網站公平公正性，所有會員資料均經過加密，保障玩家所有隱私。
-                        <br>
-                        <br>
-                        線上投注，從派大金開始！作為國際專業的網上博彩遊戲運營商，我們承諾為每一位客戶提供全方位的服務。所有遊戲共同的優點─不須耗時下載、接
-                        口簡單明瞭；操作功能齊全、畫面清晰美觀；遊戲結果公平、公正、公開！
-                        <br>
-                        <br>
-                        除了運彩球版項目多樣化外，更提供：電子老虎機、釣魚遊戲、真人撲克遊戲。精心挑選大受好評的遊戲平台。美女荷官及客服團隊的人員更是經過多
-                        關面試的，給會員最好的服務體驗。派大金以可靠的信譽為名：進行一年365天，24小時小時的在線監測，確保每一局遊戲結果均為現場真實的遊戲結
-                        果，而不是電腦預設的遊戲結果。
-                        <br>
-                        <br>
-                        成為派大金的會員，就是大贏家，我們將不間斷的推出更多有利新舊會員的優惠活動，天天有驚喜、周周大回饋。
-                    </p>
+            <!-- title -->
+            <div class="col-12 centerCenter border-bottom-title uk-position-relative text-light">
+                <p class="w3-xlarge lp1 text-center font-weight-bold my-1">關於我們</p>
+            </div>
+            <!-- title設定 -->
+            <script>
+                $(document).ready(function () {
+                    const title = $('title').text();
+                    $('#title').text(title);
+                });
+            </script>
+            <!-- 關於我們 -->
+            <div class="row text-light w3-round-medium py-3">
+                <p class="p-3 text-justify">
+                    沙龍集團（SA Group）成立於 2014 年，是亞洲最新興的博彩娛樂集團，我們憑著數十位博彩專家的經驗與心血並結合網絡技術優勢
+                    成功打造出一個以百家樂遊戲為主的超級遊戲平台。卓越的平台功能與設計全以玩家使用點出發，包括首創超級多檯一目盡覽聚龍廳
+                    與快速廳的所有路紙，且可任選四桌或八桌的顯示模式、成功打造出一個以百家樂,運彩,賓果, 電子遊戲為主的超級遊戲平台，讓沙龍
+                    平台推出便成為在業界嶄露頭角的後起之秀。
+                </p>
+            </div>
+            <!-- pc牌照+獎項 -->
+            <div class="row text-light w3-round-medium py-3 px-5 d-none d-md-block">
+                <div class="col-12">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/t1-3.png" alt="">
                 </div>
-                <!-- 2 -->
-                <div class="row bg-light w3-round-medium py-3 px-5">
-                    <p class="text-123ts-color text-monospace">我們為會員提供最專業的娛樂服務：</p>
-                    <p class="p-3 fsz-08 text-secondary text-justify">
-                        1、365天 × 24小時專業的客戶服務，全天候處理會員出入款的相關事宜，嚴格訓練的客服團隊，以專業、親切的態度，讓每位玩家有賓至如歸的感覺!
-                        <br>
-                        <br>
-                        2、多渠道的與客戶的互動交流，了解客戶的需求，隨時關注客戶的意見及建議；
-                        <br>
-                        <br>
-                        3、舉辦更多的優惠及促銷活動，給客戶提供更多的回饋及驚喜。
-                    </p>
+                <div class="col-12 pt-5">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/t2-3.png" alt="">
                 </div>
-                <!-- 3 -->
-                <div class="row bg-light w3-round-medium py-3 px-5">
-                    <p class="text-123ts-color text-monospace">遊戲責任：</p>
-                    <p class="p-3 fsz-08 text-secondary text-justify">派大金提倡有節制的賭博。我們建議會員遵守以下幾項基本規則：
-                        <br>
-                        <br>
-                        • 禁止未滿18歲的人士參與賭博遊戲。在加入遊戲之前，請您確定您已年滿18歲。
-                        <br>
-                        <br>
-                        玩家網上支付和所有銀行交易由國際金融機構在高標準的安全和機密的網絡端口中進行。進入玩家帳戶資料也必須有玩家唯一的登入ID和密碼，確保
-                        會員的資金安全有保障。同時也采用最先進的加密措施來保證玩家的遊戲安全，7×24小時的後臺檢測和監控，確保我們可以提供一個完全公正和安全
-                        的網絡遊戲空間。會員在本平臺的所有活動均嚴格保密，我們絕不會向第三方（包括政府）透露客戶資料。
-                    </p>
+            </div>
+            <!-- md牌照+獎項 -->
+            <div class="row text-light w3-round-medium py-3 px-5 d-md-none">
+                <div class="col-12 centerCenter">
+                    <img src="../img/手機各分頁img/內頁/關於我們/mdt1-1.png" alt="">
                 </div>
-                <!-- H -->
-                <div class="d-md-none" style="min-height: 65px;"></div>
+                <div class="col-12 pt-3">
+                    <img src="../img/手機各分頁img/內頁/關於我們/mdt1-2.png" alt="">
+                </div>
+                <div class="col-12 centerCenter pt-3">
+                    <img src="../img/手機各分頁img/內頁/關於我們/mdt2-1.png" alt="">
+                </div>
+                <div class="col-12 pt-3">
+                    <img src="../img/手機各分頁img/內頁/關於我們/mdt2-2.png" alt="">
+                </div>
+            </div>
+            <!-- 攝影棚 -->
+            <div class="col-12 centerCenter border-bottom-title uk-position-relative text-light">
+                <p class="w3-xlarge lp1 text-center font-weight-bold my-1">真人攝影棚</p>
+            </div>
+            <!-- pc攝影棚 -->
+            <div id="BOX" class="pt-4 centerCenter">
+                <img src="../img/桌機各分頁img/內頁/關於我們/small1.png" width="686" height="387" id="BIG"
+                    style="border: #fff solid 2px; padding: 2px;">
+                <div id="SMALL" class="centerCenter">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/small1.png" width="140" class="pt-2" id="SS1" alt="cling images"
+                        title="攝影1">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/small2.png" width="140" class="pt-2" id="SS2" alt="cling images"
+                        title="攝影2">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/small3.png" width="140" class="pt-2" id="SS3" alt="cling images"
+                        title="攝影3">
+                    <img src="../img/桌機各分頁img/內頁/關於我們/small4.png" width="140" class="pt-2" id="SS4" alt="cling images"
+                        title="攝影4">
+                </div>
+            </div>
+            <div class="row text-light w3-round-medium pb-5">
+                <p class="p-3 text-justify pb-5">
+                    SA Gaming 的真人攝影棚位處歐洲，匯聚東方及西方的特色，為客戶及其玩家還原真實的遊戲體驗。我們攝影棚的遊戲經多個司法管
+                    轄區認可的第三方遊戲認證機構 GLI 的測試及認證，從專業的荷官到全天候現場監控，我們的真人攝影棚是線上娛樂的理想之選。
+                </p>
             </div>
         </div>
     </div>
+    </div>
 
     <!-- Footer -->
-    <script>PCFooter();</script>
-    <script>MDFooter();</script>
-
+    <script>
+        PCFooter();
+    </script>
+    <script>
+        MDFooter();
+    </script>
+    <script>
+        $(function () {
+            $("#SMALL img").click(function () {
+                var N = $(this).attr("id").substr(2);
+                $("#BIG").attr("src", "../img/桌機各分頁img/內頁/關於我們/small" + N + ".png");
+            });
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

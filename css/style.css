@@ -49,6 +49,10 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
     transition: all .3s ease-out;
 }
 
+p{
+    margin: 0 !important;
+}
+
 /* 通用 -------------------------------------------------------- */
 
 /* 遊戲背景 */
@@ -67,6 +71,11 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
     background-position: center;
     background-repeat: no-repeat; */
     background-size: cover;
+}
+
+.bgc-flex-SA {background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 /* 遊戲背景 */
@@ -96,6 +105,9 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
     margin-right: auto !important;
 }
 
+.lp05 {
+    letter-spacing: .05em;
+}
 .lp1 {
     letter-spacing: .1em;
 }
@@ -116,6 +128,33 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
     color: #ffbe67;
 }
 
+.textOrange {
+    color: #ffbe67;
+}
+
+.textCoffee {
+    color: #bc985e;
+}
+
+.textCoffee2 {
+    color: #bcad93;
+}
+
+.textWhite {
+    color: #efeee0;
+}
+
+.bgWhite {
+    background: #efeee0;
+}
+
+.bgCoffee {
+    background: #bc985e;
+}
+
+.bgCoffee2 {
+    background: #bcad93;
+}
 /* body -------------------------------------------------------- */
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -123,12 +162,16 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
     content: "/";
 }
 
-.text-123ts-color {
-    color: #fd788e;
+.text-theme {
+    color: #bc985e;
 }
 
-.bg-123ts {
-    background-color: #fd788e;
+.bg-theme {
+    background-color: #bc985e;
+}
+
+.bd-theme {
+    border-color: #bc985e !important;
 }
 
 .Blog-name-active:hover {
@@ -210,4 +253,38 @@ header, footer, div, nav, article, h2, h3, h4, h5, h6, hr, p, form, label, input
 
 .gradientBtnA {
     background: linear-gradient(180deg, #eecda3 0%, #ef629f 100%);
+}
+
+.border-bottom-title{
+    border-bottom: 2px solid #bc985e;
+}
+
+.rowEllipsis2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.rowEllipsis3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.rowEllipsis5 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    white-space: normal;
 }
