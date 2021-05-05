@@ -37,16 +37,16 @@
     <title>會員中心</title>
     <style>
         .gradientBtn {
-            background: linear-gradient(270deg, #eecda3 0%, #ef629f 100%);
+            background: linear-gradient(270deg, #bcad93 0%, #bc985e 100%);
         }
 
         .gradientBtnA {
-            background: linear-gradient(180deg, #eecda3 0%, #ef629f 100%);
+            background: linear-gradient(270deg, #bcad93 0%, #bc985e 100%);
         }
 
         .modalBtn-active {
             color: #fff;
-            background-color: #fd788e;
+            background-color: #bc985e;
             border-radius: 15px;
         }
     </style>
@@ -58,108 +58,164 @@
         <script>PageHeader();</script>
     </div>
     <!-- MD history.back ------------------------------------------------------------------------>
-    <div class="d-md-none w-100 py-1" style="background-color: #9383f3;">
+    <div class="d-md-none w-100 py-1" style="background-color: #efeee0;">
         <nav aria-label="breadcrumb">
             <ul class="d-flex py-0 py-sm-1">
                 <button class="btn py-0" type="button" onclick="history.back()" value="回到上一頁">
-                    <i class="fas fa-angle-left text-light fa-lg"></i>
+                    <i class="fas fa-angle-left textCoffee fa-lg"></i>
                 </button>
-                <li class="breadcrumb-item"><a href="../index.html" class="text-light">首頁</a></li>
+                <li class="breadcrumb-item"><a href="/index.html" class="textCoffee">首頁</a></li>
+                <li class="breadcrumb-item"><a href="/loginPage/loginPage.html" class="textCoffee">會員中心</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <span class="text-light pl-2" id="copyTitle"></span>
+                    <span class="textCoffee pl-2" id="copyTitle"></span>
                 </li>
             </ul>
         </nav>
     </div>
-    <script src="/123ts/js/history.js"></script>
+    <script src="/js/history.js"></script>
 
     <!-- MD -->
-    <div class="container-fluid p-0 m-0 d-md-none" style="background-color: #eee7eb;padding-bottom: 100px !important;">
-        <!-- user -->
-        <div class="bg-light py-4 centerCenter">
-            <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Player.png" class="img-fluid" alt="">
-            <p class="text-center">玩家#8868</p>
-        </div>
-        <!--  -->
-        <div class="row centerCenter" style="background-color: #d6d6d6;">
-            <div class="col-6 centerCenter">
-                <span>主錢包：</span>
-                <span>10000.00</span>
-            </div>
-            <div class="col-6 centerCenter">
-                <button class="btn px-3 bg-123ts text-light uk-border-pill">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Vector Smart Object.png"
-                        class="img-fluid px-1" alt="">
-                    <span>一鍵返回</span>
-                </button>
-            </div>
-        </div>
-        <!--  -->
-        <div class="row py-3 centerCenter">
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/1EachStream.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 1.png" class="img-fluid px-1"
-                        alt="">
-                </a>
-            </div>
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/2DepositWthdrawal.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 2.png" class="img-fluid px-1"
-                        alt="">
-                </a>
-            </div>
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/3memberProfile.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 3.png" class="img-fluid px-1"
-                        alt="">
-                </a>
-            </div>
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/4changePassword.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 4.png" class="img-fluid px-1"
-                        alt="">
-                </a>
-            </div>
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/5TransactionRecord.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 5.png" class="img-fluid px-1"
-                        alt="">
-                </a>
-            </div>
-            <!--  -->
-            <div class="col-6 centerCenter py-2">
-                <a href="/123ts/loginPage/6EachStream.html.html" class="btn px-3">
-                    <img src="/123ts/img/手機各分頁img/indexLogin_登入條/loginPage會員中心/Group 6.png" class="img-fluid px-1"
-                        alt="">
-                </a>
+    <div class="container-fluid p-0 m-0 d-md-none" style="background: url(/img/手機各分頁img/內頁/bg2.png);">
+        <div class="container-fluid p-0 d-md-none" style="background: #bc985e;">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-6 centerCenter">
+                        <img src="/img/手機各分頁img/內頁/會員中心/頭像.png" class="img-fluid" alt="">
+                        <div class="d-flex centerCenter">
+                            <p class="text-center">玩家</p>
+                                <span class="textWhite">#00878</span>
+                        </div>
+                    </div>
+                    <div class="col-6 centerCenter">
+                        <div class="py-1">
+                            <img src="/img/手機各分頁img/內頁/會員中心/vip.png" class="img-fluid" alt="">
+                            <span>帳號</span>
+                            <span class="textWhite">#00878</span>
+                        </div>
+                        <div class="py-1">
+                            <img src="/img/手機各分頁img/內頁/會員中心/錢.png" class="img-fluid" alt="">
+                            <span class="textWhite">100</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Shortcuts -------------------------------------------------------------->
-        <!-- <div class="row centerCenter py-3 px-0" style="background-color: #ffbe67;">
-            <a href="/123ts/header page/0Agent.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 1.png" class="img-fluid" alt="">
-            </a>
-            <a href="/123ts/header page/1AboutUs.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 2.png" class="img-fluid" alt="">
-            </a>
-            <a href="/123ts/header page/2AppDownload.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 3.png" class="img-fluid" alt="">
-            </a>
-            <a href="/123ts/header page/3FAQ.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 4.png" class="img-fluid" alt="">
-            </a>
-            <a href="/123ts/header page/4RepairTime.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 5.png" class="img-fluid" alt="">
-            </a>
-            <a href="/123ts/blog/LiveCasinoBlog.html" class="col-6 py-1">
-                <img src="/123ts/img/桌機index_img/Group 6.png" class="img-fluid" alt="">
-            </a>
-        </div> -->
+        <div class="container-fluid p-0 d-md-none bgc2 bgc-flex">
+            <div class="container">
+                <!--  -->
+                <div class="row p-3" style="align-items: center;">
+                    <div class="col-12 bgWhite py-2">
+                        <div class="row py-2">
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/2DepositWthdrawal.html">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/存款.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/1EachStream.html">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/平台轉帳.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/2DepositWthdrawal.html">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/提款.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="row p-3" style="align-items: center;">
+                    <div class="col-12 bgWhite pt-2 pb-5">
+                        <div class="row py-2 mx-2 border-bottom border-secondary">
+                            <div class="col-8 centerCenter">
+                                <a href="/loginPage/3memberProfile.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/會員.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">會員資料</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/3memberProfile.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row py-2 mx-2 border-bottom border-secondary">
+                            <div class="col-8 centerCenter">
+                                <a href="/loginPage/4changePassword.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/更改.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">更改密碼</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/4changePassword.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row py-2 mx-2 border-bottom border-secondary">
+                            <div class="col-8 centerCenter">
+                                <a href="/loginPage/5TransactionRecord.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/紀錄.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">交易紀錄</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/5TransactionRecord.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row py-2 mx-2 border-bottom border-secondary">
+                            <div class="col-8 centerCenter">
+                                <a href="/loginPage/6EachStream.html.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/流水.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">各廳流水</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/loginPage/6EachStream.html.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row py-2 mx-2 border-bottom border-secondary">
+                            <div class="col-8 centerCenter">
+                                <a href="/header page/1AboutUs.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/關於.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">關於我們</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/header page/1AboutUs.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row py-2 mx-2">
+                            <div class="col-8 centerCenter">
+                                <a href="/index.html" style="text-decoration:none;">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/登出.png" alt="">
+                                    <span style="color: #4d4d4d; font-size: 1.3rem; font-weight: bold;">登出&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                </a>
+                            </div>
+                            <div class="col-4 centerCenter">
+                                <a href="/index.html">
+                                    <img src="/img/手機各分頁img/內頁/會員中心/箭頭.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
 
     <!-- Footer -->
     <div class="d-md-none">
-        <script>indexLoginFooter();</script>
+        <script>MDFooter();</script>
+        <!-- <script>indexLoginFooter();</script> -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"

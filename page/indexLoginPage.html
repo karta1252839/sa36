@@ -56,8 +56,8 @@
             color: #fd788e;
         }
 
-        .gradientBtn {
-            background: linear-gradient(180deg, #eecda3 0%, #ef629f 100%);
+        .gradientBtnA {
+            background: #bc985e;
         }
     </style>
 </head>
@@ -89,30 +89,31 @@
     </script>
 
 
-    <div class="container-fluid p-0 m-0 d-md-none bgc-body-color" style="min-height: 600px;">
+    <div class="container-fluid px-0 py-0 m-0 bgc-flex d-lg-none"
+        style="background: url(/img/手機各分頁img/內頁/bg2.png) center no-repeat;background-size:cover;">
         <div class="container">
             <div class="row centerCenter pt-4 pb-3">
                 <!-- 帳號 -->
-                <div class="col-4 py-2 text-right text-secondary w3-medium">帳號</div>
+                <div class="col-4 py-2 text-right text-light w3-medium">帳號</div>
                 <div class="col-8 py-2">
-                    <input type="text" class=" px-3 py-1 uk-border-pill fsz-08" placeholder="4~10碼英文或數字組合"
+                    <input type="text" class=" px-3 py-1 fsz-08" placeholder="4~10碼英文或數字組合"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = '4~10碼英文或數字組合'" />
                 </div>
                 <!-- 密碼 -->
-                <div class="col-4 py-2 text-right text-secondary w3-medium">密碼</div>
+                <div class="col-4 py-2 text-right text-light w3-medium">密碼</div>
                 <div class="col-8 py-2">
-                    <input type="password" class=" px-3 py-1 uk-border-pill fsz-08" placeholder="密碼"
+                    <input type="password" class=" px-3 py-1 fsz-08" placeholder="密碼"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = '密碼'" />
                 </div>
                 <!-- 登入 -->
-                <a href="/page/indexLogin.html"
-                    class="uk-button uk-border-pill my-2 py-0 w3-medium text-light gradientBtn">登入</a>
+                <a href="/loginPage/loginPage.html"
+                    class="uk-button my-2 py-0 w3-medium text-light gradientBtnA">登入</a>
                 <div class="col-12 centerCenter py-2">
-                    <a href="/header page/Signup.html" class="text-123ts-color lp1">註冊</a>
+                    <a href="/header page/Signup.html" class="text-light lp1">註冊</a>
                 </div>
-                <span class="text-secondary">忘記密碼修改請洽客服</span>
-                <button
-                    class="uk-button text-secondary gradientBtn uk-border-pill text-light py-0 px-3 ml-2" data-toggle="modal" data-target="#exampleModal">前往</button>
+                <span class="text-light">忘記密碼修改請洽客服</span>
+                <button class="uk-button text-light gradientBtnA text-light py-0 px-3 ml-2"
+                    data-toggle="modal" data-target="#exampleModal">前往</button>
             </div>
         </div>
     </div>

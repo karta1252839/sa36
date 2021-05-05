@@ -37,12 +37,16 @@
     <title>登入條 indexLogin</title>
     <style>
         .gradientBtn {
-            background: linear-gradient(270deg, #eecda3 0%, #ef629f 100%);
+            background: url(/img/桌機index_img/footer.png) center 100%;
+        }
+
+        .gradientBtnA {
+            background: #efeee0;
         }
 
         .modalBtn-active {
-            color: #fff;
-            background-color: #fd788e;
+            color: #bc985e;
+            background-color: #efeee0;
             border-radius: 15px;
         }
     </style>
@@ -57,38 +61,38 @@
                 <div class="col-12 text-right">
                     <!-- 1.各廰流水 -->
                     <a href="#modal-example1"
-                        class="btn rounded-lg px-4 py-1 text-light mx-1 w3-hover-text-pink border-light"
+                        class="btn rounded-lg px-4 py-1 fsz-08 textWhite mx-1 w3-hover-text-pink border-light"
                         uk-toggle>各廰流水
                     </a>
 
                     <div id="modal-example1" uk-modal>
                         <div class="uk-modal-dialog w3-round-large">
                             <div class="px-3 py-1 gradientBtn" style="border-radius: 8px 8px 0  0;">
-                                <h2 class="text-center text-light" style="font-size: 1.35rem;">各廰流水</h2>
-                                <button class="uk-modal-close-default text-light" type="button" uk-close></button>
+                                <h2 class="text-center textWhite" style="font-size: 1.35rem;">各廰流水</h2>
+                                <button class="uk-modal-close-default textWhite" type="button" uk-close></button>
                             </div>
-                            <div class="bgc-body-color">
+                            <div class="bgCoffee">
                                 <div class="row px-5 py-3">
                                     <!-- 開始日期 -->
                                     <form class="col-6" action="uk-margin" method="post">
                                         <label>
-                                            <span class="lp1 text-secondary">開始日期</span>
+                                            <span class="lp1">開始日期</span>
                                         </label>
-                                        <input class="px-1 py-2 w-100 bg-light text-secondary" type="datetime-local"
+                                        <input class="px-1 py-2 w-100 bgWhite text-secondary" type="datetime-local"
                                             name="" id="">
                                     </form>
                                     <!-- 結束日期 -->
                                     <form class="col-6" action="uk-margin" method="post">
                                         <label>
-                                            <span class="lp1 text-secondary">結束日期</span>
+                                            <span class="lp1">結束日期</span>
                                         </label>
-                                        <input class="px-1 py-2 w-100 bg-light text-secondary" type="datetime-local"
+                                        <input class="px-1 py-2 w-100 bgWhite text-secondary" type="datetime-local"
                                             name="" id="">
                                     </form>
                                     <!-- 搜尋 -->
                                     <div class="col-12 pb-2 pt-4">
                                         <button
-                                            class="uk-button centerCenter w-100 w3-round-large gradientBtnA text-light"
+                                            class="uk-button centerCenter w-100 w3-round-large gradientBtnA textCoffee"
                                             type="button">搜尋</button>
                                     </div>
                                     <!--  -->
@@ -131,11 +135,11 @@
                                             </div>
                                             <!--  -->
                                             <div class="col-12 px-3">
-                                                <div class="row centerCenter bg-light w3-round-medium text-secondary">
+                                                <div class="row centerCenter bgWhite w3-round-medium text-secondary">
                                                     <div class="col-12">
                                                         <div class="row py-1 border-bottom" style="border-color: #aaa;">
-                                                            <div class="col-6 centerCenter text-light">遊戲廳</div>
-                                                            <div class="col-6 centerCenter text-light">有效投注</div>
+                                                            <div class="col-6 centerCenter">遊戲廳</div>
+                                                            <div class="col-6 centerCenter">有效投注</div>
                                                         </div>
                                                         <div class="row py-1">
                                                             <div class="col-6 centerCenter">BNG電子</div>
@@ -149,13 +153,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="bg-light text-light" style="min-height: 200px;">
+                                        <div class="bgWhite" style="min-height: 200px;">
                                             <p class="text-center pl-2">昨日 尚無任何記錄</p>
                                         </div>
-                                        <div class="bg-light text-light" style="min-height: 200px;">
+                                        <div class="bgWhite" style="min-height: 200px;">
                                             <p class="text-center pl-2">本週 尚無任何記錄</p>
                                         </div>
-                                        <div class="bg-light text-light" style="min-height: 200px;">
+                                        <div class="bgWhite" style="min-height: 200px;">
                                             <p class="text-center pl-2">上週 尚無任何記錄</p>
                                         </div>
                                     </div>
@@ -166,13 +170,13 @@
                     </div>
                     <!-- 我的錢包 -->
                     <a href="./MyPurse.html"
-                        class="btn rounded-lg px-4 py-1 text-light mx-1 w3-hover-text-pink border-light">我的錢包</a>
+                        class="btn rounded-lg px-4 py-1 fsz-08 textWhite mx-1 w3-hover-text-pink border-light">我的錢包</a>
                     <!-- APP下載 -->
                     <!-- <a href="../header page/2AppDownload.html"
-                        class="btn rounded-lg px-4 py-1 text-light mx-1 w3-hover-text-pink border-light">APP下載</a> -->
+                        class="btn rounded-lg px-4 py-1 fsz-08 textWhite mx-1 w3-hover-text-pink border-light">APP下載</a> -->
                     <!-- user -->
-                    <span class="text-light">你好，玩家</span><span
-                        class="text-light">#8868</span>
+                    <span class="textWhite w3-small">你好，玩家</span><span
+                        class="textWhite w3-medium">#8868</span>
                     <!-- 登出 -->
                     <a href="/index.html"><input class="btn py-0 ml-2 input-size font-weight-bold"
                         style="background-color: #EEC96B;" type="submit" value="登出"></a>

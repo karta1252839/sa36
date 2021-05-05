@@ -37,11 +37,11 @@
     <title>轉帳</title>
     <style>
         .gradientBtn {
-            background: linear-gradient(270deg, #eecda3 0%, #ef629f 100%);
+            background: linear-gradient(270deg, #bcad93 0%, #bc985e 100%);
         }
 
         .gradientBtnA {
-            background: linear-gradient(180deg, #eecda3 0%, #ef629f 100%);
+            background: #bc985e;
         }
 
         .modalBtn-active {
@@ -51,7 +51,7 @@
         }
 
         .textTitle {
-            color: #789efd;
+            color: #bc985e;
         }
     </style>
 </head>
@@ -59,29 +59,31 @@
 <body>
     <!-- Header -->
     <div class="d-md-none">
-        <script>PageHeader();</script>
+        <script>
+            PageHeader();
+        </script>
     </div>
     <!-- MD history.back ------------------------------------------------------------------------>
-    <div class="d-md-none w-100 py-1" style="background-color: #9383f3;">
+    <div class="d-md-none w-100 py-1" style="background-color: #efeee0;">
         <nav aria-label="breadcrumb">
             <ul class="d-flex py-0 py-sm-1">
                 <button class="btn py-0" type="button" onclick="history.back()" value="回到上一頁">
-                    <i class="fas fa-angle-left text-light fa-lg"></i>
+                    <i class="fas fa-angle-left textCoffee fa-lg"></i>
                 </button>
-                <li class="breadcrumb-item"><a href="/123ts/index.html" class="text-light">首頁</a></li>
-                <li class="breadcrumb-item"><a href="/123ts/loginPage/loginPage.html" class="text-light">會員中心</a></li>
+                <li class="breadcrumb-item"><a href="/index.html" class="textCoffee">首頁</a></li>
+                <li class="breadcrumb-item"><a href="/loginPage/loginPage.html" class="textCoffee">會員中心</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                    <span class="text-light pl-2" id="copyTitle"></span>
+                    <span class="textCoffee pl-2" id="copyTitle"></span>
                 </li>
             </ul>
         </nav>
     </div>
-    <script src="/123ts/js/history.js"></script>
+    <script src="/js/history.js"></script>
 
     <!-- MD -->
-    <div class="container-fluid p-0 m-0 d-md-none" style="background-color: #eee7eb;padding-bottom: 100px !important;">
+    <div class="container-fluid p-0 m-0 d-md-none" style="background: url(/img/手機各分頁img/內頁/bg2.png);">
         <!-- 轉帳 -->
-        <div class="row px-5">
+        <div class="row px-5 textWhite">
             <!-- 左側 -->
             <div class="col-12">
                 <!-- 1.從這轉帳 -->
@@ -125,7 +127,7 @@
                     style="border-radius: 5px;" type="button">轉帳</button>
             </div>
             <!-- 右側 -->
-            <div class="col-12 py-3 px-5 bg-light w3-round-medium mt-3">
+            <div class="col-12 py-3 px-5 bgWhite w3-round-medium mt-3">
                 <!-- 錢包 -->
                 <div class="row">
                     <div class="col-6 text-secondary">錢包</div>
@@ -339,12 +341,14 @@
 
     <!-- Footer -->
     <div class="d-md-none">
-        <script>indexLoginFooter();</script>
+        <script>
+            indexLoginFooter();
+        </script>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
