@@ -35,7 +35,21 @@
 
     <title>優惠說明 Promotion</title>
     <style>
+        .uk-tab>.uk-active>a {
+            color: #fff;
+            border-color: #bc985e;
+            background-color: #bc985e;
+        }
 
+        .uk-tab>*>a {
+            color: #bc985e;
+            font-size: 1.2rem;
+        }
+
+        .uk-tab>*>a:hover {
+            background-color: #bc985e;
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -68,72 +82,108 @@
     </script>
 
 
-<div class="container-fluid px-0 py-0 m-0 bgc-flex" style="background-image: url(../img/桌機index_img/bg2.png);">
-    <div class="container pb-3">
-        <!-- PC ------------------------------------------------------------------------>
-        <div class="d-none d-md-block ">
-            <div class="w3-xlarge lp1 text-light centerCenter py-3">優惠說明</div>
-            <div class="py-3 uk-transition-toggle">
-                <a class="uk-inline-clip " href="#"><img class="w-100 uk-transition-scale-up uk-transition-opaque"
-                        src="../img/桌機各分頁img/優惠說明Promotion/banner1.png" alt=""></a>
-            </div>
-            <div class="py-3 uk-transition-toggle">
-                <a class="uk-inline-clip " href="#"><img class="w-100 uk-transition-scale-up uk-transition-opaque"
-                        src="../img/桌機各分頁img/優惠說明Promotion/banner2.png" alt=""></a>
-            </div>
-            <div class="py-3 uk-transition-toggle">
-                <a class="uk-inline-clip " href="#"><img class="w-100 uk-transition-scale-up uk-transition-opaque"
-                        src="../img/桌機各分頁img/優惠說明Promotion/banner3.png" alt=""></a>
-            </div>
-        </div>
-        <!-- MD ------------------------------------------------------------------------>
-        <div class="d-md-none">
-            <div class="row pt-3">
-                <div class="col-6">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 13.png" class="text-center w-100 pl-2"
-                            alt=""></a>
-                </div>
-                <div class="col-6">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 14.png" class="text-center w-100 pr-2"
-                            alt=""></a>
-                </div>
-            </div>
-            <div class="row pt-3">
-                <div class="col-6 ">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 15.png" class="text-center w-100 pl-2"
-                            alt=""></a>
-                </div>
-                <div class="col-6">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 16.png" class="text-center w-100 pr-2"
-                            alt=""></a>
-                </div>
-            </div>
-            <div class="row pt-3">
-                <div class="col-6 ">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 15.png" class="text-center w-100 pl-2"
-                            alt=""></a>
-                </div>
-                <div class="col-6">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 16.png" class="text-center w-100 pr-2"
-                            alt=""></a>
-                </div>
-            </div>
-            <div class="row pt-3">
-                <div class="col-6 ">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 17.png" class="text-center w-100 pl-2"
-                            alt=""></a>
-                </div>
-                <div class="col-6">
-                    <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 18.png" class="text-center w-100 pr-2"
-                            alt=""></a>
-                </div>
-            </div>
-            <!-- H -->
-            <div class="" style="min-height: 60px;"></div>
-        </div>
+    <div class="container-fluid px-0 py-0 m-0 bgc-flex" style="background-image: url(../img/桌機index_img/bg2.png);">
+        <div class="container pb-3">
+            <!-- PC ------------------------------------------------------------------------>
+            <div class="d-none d-md-block ">
+                <div class="row py-3">
+                    <ul uk-tab class="row w-100 centerCenter">
+                        <li class="col-2 p-0"><a href="#">全部優惠</a></li>
+                        <li class="col-2 p-0"><a href="#">限時優惠</a></li>
+                    </ul>
 
+                    <ul class="uk-switcher py-3 w-100">
+                        <!-- 全部優惠 -->
+                        <li>
+                            <div class="row pt-3 pt-lg-0 centerCenter">
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner1.png" alt=""></a>
+                                </div>
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner2.png" alt=""></a>
+                                </div>
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner3.png" alt=""></a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- 限時優惠 -->
+                        <li>
+                            <div class="row pt-3 pt-lg-0 centerCenter">
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner1.png" alt=""></a>
+                                </div>
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner2.png" alt=""></a>
+                                </div>
+                                <div class="py-3 uk-transition-toggle">
+                                    <a class="uk-inline-clip " href="../page/PromotionPage.html"><img
+                                            class="w-100 uk-transition-scale-up uk-transition-opaque"
+                                            src="../img/桌機各分頁img/優惠說明Promotion/banner3.png" alt=""></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- MD ------------------------------------------------------------------------>
+            <div class="d-md-none">
+                <div class="row pt-3">
+                    <div class="col-6">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 13.png" class="text-center w-100 pl-2"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 14.png" class="text-center w-100 pr-2"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-6 ">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 15.png" class="text-center w-100 pl-2"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 16.png" class="text-center w-100 pr-2"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-6 ">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 15.png" class="text-center w-100 pl-2"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 16.png" class="text-center w-100 pr-2"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-6 ">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 17.png" class="text-center w-100 pl-2"
+                                alt=""></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#"><img src="../img/手機各分頁img/優惠說明_Promotion/圖層 18.png" class="text-center w-100 pr-2"
+                                alt=""></a>
+                    </div>
+                </div>
+                <!-- H -->
+                <div class="" style="min-height: 60px;"></div>
+            </div>
+
+        </div>
     </div>
-</div>
 
     <!-- Footer -->
     <script>PCFooter();</script>

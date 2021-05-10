@@ -19,10 +19,10 @@ function PageHeader() {
     document.writeln("                            class=\'btn py-0 ml-2 input-size font-weight-bold\' style=\'background-color: #EEC96B;\'");
     document.writeln("                            type=\'button\' value=\'註冊\'></a>");
     document.writeln("                    <span class=\'pl-2\'>");
-    document.writeln("                        <a class=\'text-dark mx-1 font-weight-bold lp05\' href=\'../header page/Announcement.html\'>公告</a>");
+    document.writeln("                        <a class=\'text-dark mx-1 font-weight-bold lp05\' href=\'../header page/Activity.html\'>活動花絮</a>");
     document.writeln("                        <a class=\'text-dark mx-1 font-weight-bold lp05\'");
-    document.writeln("                            href=\'../header page/2AppDownload.html\'>APP下載</a>");
-    document.writeln("                        <a class=\'text-dark mx-1 font-weight-bold lp05\' href=\'../header page/3FAQ.html\'>常見問題</a>");
+    document.writeln("                            href=\'../header page/1AboutUs.html\'>關於我們</a>");
+    document.writeln("                        <a class=\'text-dark mx-1 font-weight-bold lp05\' href=\'../blog/AllBlog.html\'>媒體中心</a>");
     document.writeln("                    </span>");
     document.writeln("                </div>");
     document.writeln("            </div>");
@@ -34,7 +34,7 @@ function PageHeader() {
     document.writeln("        <div class=\'container\'>");
     document.writeln("            <div class=\'row\' style=\'align-items:center;\'>");
     document.writeln("                <div class=\'col-3 centerCenter\'>");
-    document.writeln("                    <a class=\'\' href=\'/index.html\'><img class=\'img-fluid\' src=\'../img/桌機index_img/logo.png\'></a>");
+    document.writeln("                    <a class=\'\' href=\'../index.html\'><img class=\'img-fluid\' src=\'../img/桌機index_img/logo.png\'></a>");
     document.writeln("                </div>");
     document.writeln("                <div class=\'col-9\'>");
     document.writeln("                    <div class=\'row mx-auto\'>");
@@ -87,7 +87,7 @@ function PageHeader() {
     document.writeln("                                    <!-- 首頁 -->");
     document.writeln("                                    <div class=\'row clearfix m-0\'>");
     document.writeln("                                        <div class=\'col-12 px-3 py-2 hamburg-border-bottom w-100\'>");
-    document.writeln("                                            <a class=\'\' href=\'/index.html\'>");
+    document.writeln("                                            <a class=\'\' href=\'../index.html\'>");
     document.writeln("                                                <div class=\'py-2 pl-1 text-decoration-none\'>");
     document.writeln("                                                    <img class=\'img-fluid pl-3\' src=\'../img/手機index_img/H漢堡/0H.png\'");
     document.writeln("                                                        alt=\'\'>");
@@ -187,7 +187,7 @@ function PageHeader() {
     document.writeln("                </div>");
     document.writeln("                <!-- LOGO -->");
     document.writeln("                <div class=\'col-4 text-center\'>");
-    document.writeln("                    <div class=\'text-center\' style=\'margin-left: -5%;\'><a href=\'/index.html\'><img");
+    document.writeln("                    <div class=\'text-center\' style=\'margin-left: -5%;\'><a href=\'../index.html\'><img");
     document.writeln("                                src=\'../img/桌機index_img/logo.png\' alt=\'\' class=\'img-fluid\'></a></div>");
     document.writeln("                </div>");
     document.writeln("                <!-- 登入 -->");
@@ -328,11 +328,6 @@ function PCFooter() {
     document.writeln("                                        </a>");
     document.writeln("                                    </li>");
     document.writeln("                                    <li>");
-    document.writeln("                                        <a href=\'../header page/Announcement.html\'>");
-    document.writeln("                                            <p class=\'text-light w3-hover-text-orange\'>公告</p>");
-    document.writeln("                                        </a>");
-    document.writeln("                                    </li>");
-    document.writeln("                                    <li>");
     document.writeln("                                        <a href=\'../header page/0Agent.html\'>");
     document.writeln("                                            <p class=\'text-light w3-hover-text-orange\'>合營代理</p>");
     document.writeln("                                        </a>");
@@ -349,7 +344,7 @@ function PCFooter() {
     document.writeln("                                <p class=\'w3-large font-weight-bold text-theme\'>活動花絮</p>");
     document.writeln("                                <ul class=\'pt-2\'>");
     document.writeln("                                    <li>");
-    document.writeln("                                        <a href=\'../header page/ActivityHighlights.html\'>");
+    document.writeln("                                        <a href=\'../header page/Activity.html\'>");
     document.writeln("                                            <p class=\'text-light w3-hover-text-orange\'>活動花絮</p>");
     document.writeln("                                        </a>");
     document.writeln("                                    </li>");
@@ -360,7 +355,7 @@ function PCFooter() {
     document.writeln("                                <p class=\'w3-large font-weight-bold text-theme\'>媒體中心</p>");
     document.writeln("                                <ul class=\'pt-2\'>");
     document.writeln("                                    <li>");
-    document.writeln("                                        <a href=\'../header page/MediaCenter.html\'>");
+    document.writeln("                                        <a href=\'../header page/AllBlog.html\'>");
     document.writeln("                                            <p class=\'text-light w3-hover-text-orange\'>媒體中心</p>");
     document.writeln("                                        </a>");
     document.writeln("                                    </li>");
@@ -448,7 +443,7 @@ function MDFooter() {
     document.writeln("                    <div class=\'container m-0 p-0 centerCenter\'>");
     document.writeln("                        <div class=\'row px-0 py-2 m-0\'>");
     document.writeln("                            <div class=\'col centerCenter px-0\'>");
-    document.writeln("                                <a href=\'/index.html\'>");
+    document.writeln("                                <a href=\'../index.html\'>");
     document.writeln("                                    <img src=\'../img/手機index_img/B1首頁.png\' class=\'img-fluid\' alt=\'\'>");
     document.writeln("                                </a>");
     document.writeln("                            </div>");
@@ -458,7 +453,7 @@ function MDFooter() {
     document.writeln("                                </a>");
     document.writeln("                            </div>");
     document.writeln("                            <div class=\'col centerCenter px-0\'>");
-    document.writeln("                                <a href=\'../page//indexLoginPage.html\'>");
+    document.writeln("                                <a href=\'../page/indexLoginPage.html\'>");
     document.writeln("                                    <img src=\'../img/手機index_img/B3.png\' class=\'img-fluid\' alt=\'\'>");
     document.writeln("                                </a>");
     document.writeln("                            </div>");
