@@ -125,23 +125,23 @@
 }
 
 .bgc1 {
-    background: url(/img/桌機index_img/bg1-1.png);
+    background: url(../img/桌機index_img/bg1-1.png);
 }
 
 .bgc2 {
-    background: url(/img/桌機index_img/bg2.png);
+    background: url(../img/桌機index_img/bg2.png);
 }
 
 .bgc3 {
-    background: url(/img/桌機index_img/bg3.png);
+    background: url(../img/桌機index_img/bg3.png);
 }
 
 .bgc4 {
-    background: url(/img/桌機index_img/bg4.png);
+    background: url(../img/桌機index_img/bg4.png);
 }
 
 .bgcFooter {
-    background: url(/img/桌機index_img/footer.png);
+    background: url(../img/桌機index_img/footer.png);
 }
 
 .btn-fixed{
