@@ -135,7 +135,7 @@ function PageHeader() {
     document.writeln("                                    <!-- 媒體中心 -->");
     document.writeln("                                    <div class=\'row clearfix m-0\'>");
     document.writeln("                                        <div class=\'col-12 px-3 py-2 hamburg-border-bottom w-100\'>");
-    document.writeln("                                            <a class=\'\' href=\'../header page/MediaCenter.html\'>");
+    document.writeln("                                            <a class=\'\' href=\'../blog/AllBlog.html\'>");
     document.writeln("                                                <div class=\'py-2 pl-1 text-decoration-none\'>");
     document.writeln("                                                    <img class=\'img-fluid pl-3\' src=\'../img/手機index_img/H漢堡/4H.png\'");
     document.writeln("                                                        alt=\'\'>");
